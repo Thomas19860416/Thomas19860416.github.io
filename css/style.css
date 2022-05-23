@@ -5,3 +5,9 @@ p {
     color: blue;
     font-size: 40px;
 }
+img{
+    width: 200px;
+    height: 200px;
+    margin: 30px;
+}
+body{ forced-color-adjust: blue;}
