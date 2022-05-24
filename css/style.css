@@ -1,13 +1,32 @@
-h1 {
-    color: red;
+@font-face {
+    font-family:"Oswald" ;
+    src: url("font/Oswald-Regular.ttf");
+    font-weight: 500;
 }
-p {
-    color: blue;
-    font-size: 40px;
+
+@font-face {
+    font-family:"Oswald VÉKONY" ;
+    src: url("font/Oswald-ExtraLight.ttf");
+    font-weight:200;
+}
+html{text-transform:none;}
+
+h1 {
+    color: rgb(255, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+    text-align:center;
+}
+
+p{color:rgb(37, 70, 37) ;
+font-family: "oswald VÉKONY";
+text-align: justify;
+text-transform:uppercase;
+line-height:30px;
+
 }
 img{
     width: 200px;
     height: 200px;
     margin: 30px;
 }
-body{ forced-color-adjust: blue;}
+  
