@@ -1,0 +1,24 @@
+
+
+h1{ color: rgb(0, 0, 0)}
+.szöveg{ color:#879aec}
+.kép {
+    margin:1%;
+    width: 200px;
+height: 250px;
+box-shadow:5px 5px 10px black;
+}
+.háttér{ background-color: rgb(66, 66, 250);
+margin:70px 20px 20px 20px;
+border: solid;
+text-align: center}
+html{;}
+.szöveg{ 
+    font-size: 60px;
+    box-shadow: 2px 2px 4px black;
+    background-color: rgb(66, 66, 250);
+    text-align: center;}
+    .sor{ font-size: 30px;
+        color: #879aec; 
+        text-decoration: none;}
+body { background-color: azure;}        

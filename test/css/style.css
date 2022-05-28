@@ -1,19 +1,20 @@
-h1{ color: red}
+h1{ color: rgb(0, 0, 0)}
+.szöveg{ color:#879aec}
 .kép {
     margin:1%;
     width: 200px;
 height: 250px;
 box-shadow:5px 5px 10px black;
 }
-.háttér{ background-color: rgb(113, 113, 230);
+.háttér{ background-color: rgb(66, 66, 250);
 margin:70px 20px 20px 20px;
 border: solid;
 text-align: center}
-html{background-color: antiquewhite;}
+html{;}
 .szöveg{ 
     font-size: 60px;
     box-shadow: 2px 2px 4px black;
-    background-color: rgb(113, 113,230);
+    background-color: rgb(66, 66, 250);
     text-align: center;}
 #kép{
     margin: 1%;
@@ -23,4 +24,24 @@ html{background-color: antiquewhite;}
 
 }
 .sor{ font-size: 30px;
-color: red }
+color: #879aec; 
+text-decoration: none;}
+
+
+
+body { background-color: azure;}
+.login {padding:15px;
+       border: solid 1px #c0c0c0;
+       box-shadow:0 0 2px;
+       display:inline-block}
+.login input {display:block}
+.login input:hover[type="email"] {border: solid 1px blue}
+.login input:hover[type="password"] {border: solid 1px blue}
+.login button:hover {
+    box-shadow: 0 0 2px ;
+}
+.login input:focus {box-shadow:0 0 3px;
+}
+.lista li:first-child{color:blue;}
+.lista li:last-child {text-decoration: underline;}
+body{ border:#f0f0f0}
