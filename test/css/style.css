@@ -1,0 +1,20 @@
+h1{ color: red}
+.kép {
+    margin:1%;
+    width: 200px;
+height: 250px;
+box-shadow:5px 5px 10px black;
+}
+.háttér{ background-color:  azure;
+margin:70px 20px 20px 20px;
+border: solid;
+text-align: center}
+html{background-color: antiquewhite;}
+.szöveg{ text-align: center;}
+#kép{
+    margin: 1%;
+    width: 300px;
+    height: 250px;
+    box-shadow: 5px 5px 10px black;
+
+}
