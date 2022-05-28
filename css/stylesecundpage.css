@@ -1,0 +1,25 @@
+.sor {
+    font-size: 30px;
+    color: #879aec;
+    text-decoration: none;
+}
+
+body {
+    background-color: azure;
+}
+
+.betű {
+    color: rgb(0, 0, 0)
+}
+
+.betű input:hover {
+    border: solid 1px blue
+}
+
+.betű textarea:hover {
+    border: solid 1px blue
+}
+
+.fieldset {
+    margin: 40px 20px 20px 20px;
+}
