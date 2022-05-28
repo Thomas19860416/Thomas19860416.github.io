@@ -1,12 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Thomas web page</title>
-    <link rel="stylesheet" href=css/stylefirstpage.css> 
+    <link rel="stylesheet" href=css/stylefirstpage.css>
 </head>
+
 <body>
     <h1 class="szöveg">First Page </h1>
     <ul class="sor">
@@ -14,13 +16,76 @@
             <a href="/" class="sor">Home</a>
         </li>
         <li>
-            <a href="/Firstpage.html"class="sor">First</a>
+            <a href="/Firstpage.html" class="sor">First</a>
         </li>
         <li>
             <a href="/Secundpage.html" class="sor">Secund</a>
         </li>
         <li>
             <a href="/Thirdpage.html" class="sor">Third</a>
-        </li>
+        </li></ul>
+
+        <form class="betű">
+            <fieldset class="fieldset">
+                <legend>Személyes Adatok</legend>
+                <div>
+                    <label for="name"> Név: *</label>
+                    <input id="name" name="name" type="text" required>
+                </div>
+                <div>
+                    <label for="email"> Email cím *</label>
+                    <input id="email" name="email" type="email" required>
+                </div>
+                <div>
+                    <label for="Cím"> Cím *</label>
+                    <input id="Cím" name="Cím" type="text" required>
+                </div>
+
+                <label for="comment">Megjegyzés:</label>
+                <textarea id="comment" name="comment" rows="5"></textarea>
+                </div>
+            </fieldset>
+
+        </form>
+        <form class="betű">
+            <fieldset class="fieldset">
+                <legend>Termék Adatai</legend>
+                <span>Extra feltét:</span>
+                <div>
+                    <input checked id="nothing" name="extra" type="radio" value="0">
+                    <label for="nothing">Nem kérek</label>
+                </div>
+                <div>
+                    <input checked id="cheese" name="extra" type="radio" value="300">
+                    <label for="cheese">feltét 1</label>
+                </div>
+                <div>
+                    <input checked id="Bread" name="extra" type="radio" value="600">
+                    <label for="Bread">feltét 2</label>
+                </div>
+                <div>
+                    <input checked id="salt" name="extra" type="radio" value="900">
+                    <label for="salt">feltét 3</label>
+                </div>
+                <div>
+                    <input checked id="souce" name="extra" type="radio" value="1200">
+                    <label for="souce">feltét 4</label>
+                </div>
+                <div>
+                    <label for="sauce">Szósz:</label>
+                    <select id="sauce" name="sauce">
+                        <option value="0" selected>Szósz 1</option>
+                        <option value="100">Szósz 2</option>
+                    </select>
+                    <div>
+                        <input type="button" value="Rendelés leadása">
+                        Ár: <span>ft</span>
+                    </div>
+                </div>
+            </fieldset>
+
+        </form>
+        </form>
 </body>
+
 </html>
