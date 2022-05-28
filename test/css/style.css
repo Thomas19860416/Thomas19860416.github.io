@@ -5,12 +5,16 @@ h1{ color: red}
 height: 250px;
 box-shadow:5px 5px 10px black;
 }
-.háttér{ background-color:  azure;
+.háttér{ background-color: rgb(113, 113, 230);
 margin:70px 20px 20px 20px;
 border: solid;
 text-align: center}
 html{background-color: antiquewhite;}
-.szöveg{ text-align: center;}
+.szöveg{ 
+    font-size: 60px;
+    box-shadow: 2px 2px 4px black;
+    background-color: rgb(113, 113,230);
+    text-align: center;}
 #kép{
     margin: 1%;
     width: 300px;
@@ -18,3 +22,5 @@ html{background-color: antiquewhite;}
     box-shadow: 5px 5px 10px black;
 
 }
+.sor{ font-size: 30px;
+color: red }
