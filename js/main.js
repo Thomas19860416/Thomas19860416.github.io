@@ -3,6 +3,9 @@ function calcAmount() {
     let amountInput = document.querySelector("input[name='amount.input']");
     let showAmount = document.querySelector("span.show-amount");
     let amountNumber = parseInt(amountInput.value);
+    if (isNaN(amountNumber)){
+        amountNumber = 0;
+    }
     
     if (amountNumber > 10) {
         alert("Maximum 10 terméket vásárolhat");
