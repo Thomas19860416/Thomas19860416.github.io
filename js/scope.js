@@ -7,3 +7,4 @@ function something() {
 something();
 
 console.log(globalName);
+document.querySelector("input#topInput").childElementCount

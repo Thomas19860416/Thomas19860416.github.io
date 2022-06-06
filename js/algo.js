@@ -60,3 +60,27 @@ for (let i = 0; i < numericArray.length && contains1 == false; i++) {
     
 }
 console.log("this array contains1 15:", contains1);
+
+let alertCloseButtons = document.querySelectorAll(".close[data-dismiss='alert']");
+for (let i = 0; i < alertCloseButtons.length; i++) {
+    alertCloseButtons[i].addEventListener("click", function(ev) {
+    this.parentElement.style.display = "none";
+    });
+}
+
+//slect elem kitöltése
+let toppings = [
+    "szalonna",
+    "Hagyma" ,
+    "tükörtojás" ,
+    "libamáj"
+];
+let toppingSelect = document.querySelector("#topInput");
+let index = 0;
+while(index < toppings.length) {
+    let option = document.createElement("option");
+    option.value = toppings[index];
+    option.innerHTML = toppings[index];
+    toppingSelect.appendChild(option);
+    index++;
+}
