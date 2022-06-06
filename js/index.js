@@ -12,6 +12,8 @@ function calcAmount() {
     let showAmount = document.querySelector("span.show-amount");
     let amountNumber = parseInt(amountInput.value);
 
+    amountNumber = isNaN(amountNumber) ? 0 : amountNumber;
+
     if ( amountNumber > 10 ) {
         alert(" maximum 10 terméket vásárolhat");
         return;
