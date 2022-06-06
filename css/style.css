@@ -1,47 +1,184 @@
-h1{ color: rgb(0, 0, 0)}
-.szöveg{ color:#879aec}
-.kép {
-    margin:1%;
-    width: 200px;
-height: 250px;
-box-shadow:5px 5px 10px black;
+h1 {
+ 
+    color: rgb(0, 0, 0)
 }
-.háttér{ background-color: rgb(66, 66, 250);
-margin:70px 20px 20px 20px;
-border: solid;
-text-align: center}
-html{;}
-.szöveg{ 
-    font-size: 60px;
+
+.szöveg {
+    color: #879aec
+}
+
+.kép {
+    margin: 1%;
+    width: 200px;
+    height: 250px;
+    box-shadow: 5px 5px 10px black;
+}
+
+.háttér {
+    background-color: rgb(66, 66, 250);
+    margin: 70px 20px 20px 20px;
+    border: solid;
+    text-align: center
+}
+
+
+
+#fix {background-color: rgb(31, 15, 175);border: solid 3px black; position: sticky;top: 0;
+    
+    
+    
+}
+#szöveg {font-size: 60px;color:white;text-align: center
+   
+ ;
     box-shadow: 2px 2px 4px black;
     background-color: rgb(66, 66, 250);
-    text-align: center;}
-#kép{
+ }
+#kép {
     margin: 1%;
     width: 300px;
     height: 250px;
     box-shadow: 5px 5px 10px black;
 
 }
-.sor{ font-size: 30px;
-color: #879aec; 
-text-decoration: none;}
+
+.sor {
+    font-size: 30px;
+    color: #879aec;
+}
 
 
 
-body { background-color: azure;}
-.login {padding:15px;
-       border: solid 1px #c0c0c0;
-       box-shadow:0 0 2px;
-       display:inline-block}
-.login input {display:block}
-.login input:hover[type="email"] {border: solid 1px blue}
-.login input:hover[type="password"] {border: solid 1px blue}
+
+a:hover {
+    font-size: 30px;
+    color: #d3a612;
+    list-style-type: square;
+}
+
+
+body {
+
+    background-color: azure;
+}
+
+.login {
+
+    /*background-image: url('/img/gitár.jpg');*/
+    background-size: 100% 100%;
+    padding: 30px;
+    border: solid 1px #c0c0c0;
+    box-shadow: 0 0 2px;
+    display: inline-block
+}
+
+.login input {
+    display: block
+}
+
+.login input:hover[type="email"] {
+    border: solid 1px blue
+}
+
+.login input:hover[type="password"] {
+    border: solid 1px blue
+}
+
 .login button:hover {
-    box-shadow: 0 0 2px ;
+    box-shadow: 0 0 2px;
 }
-.login input:focus {box-shadow:0 0 3px;
+
+.login input:focus {
+    box-shadow: 0 0 3px;
 }
-.lista li:first-child{color:blue;}
-.lista li:last-child {text-decoration: underline;}
-body{ border:#f0f0f0}
+
+.lista li:first-child {
+    color: blue;
+}
+
+.lista li:last-child {
+    text-decoration: underline;
+}
+
+
+.kutya {
+    margin: 1%;
+    box-shadow: 5px 5px 10px black;
+}
+
+.div {
+    text-align: center;
+    border: solid;
+    margin: 40px 20px 20px 20px;
+}
+
+.cica { 
+    background-image: linear-gradient(yellow, green, red);
+    background-size: 100% 100%;
+    padding: 30px;
+    border: solid 1px #c0c0c0;
+    box-shadow: 0 0 2px;
+    display: inline-block
+    
+
+
+}
+
+.béka { text-align: center;align-items: center;}
+
+.cica input {
+    display: block
+}
+
+.cica input:hover[type="email"] {
+    border: solid 1px blue
+}
+
+.cica input:hover[type="password"] {
+    border: solid 1px blue
+}
+
+.cica button:hover {
+    border: solid 2px red
+}
+
+.cica input:focus {
+    box-shadow: 0 0 3px
+}
+
+p {
+    font-size: 40px;
+    text-shadow: 2px 2px red;
+    border: 7px dotted black;
+    background-color: purple;
+    ;
+    position: center;
+    text-decoration: underline;
+    text-align: center;
+    padding: 30px 0 30px 0;
+}
+
+.cica button {
+    opacity: 0.4;
+    cursor: not-allowed;
+}
+
+/* animáció ha ráállok az egérrel*/
+@keyframes fos {
+    from {
+        background-color: yellow;
+    }
+
+    to {
+        background-color: green;
+    }
+}
+
+
+.háttér:hover {
+    animation: fos 5s linear 0s infinite alternate;
+}
+.fix {position: fixed ; left: 50px;}
+.kuki { padding: 20px; font-size: 80px; margin-left: auto;
+    margin-right: auto;
+    display: block;}

@@ -7,11 +7,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Thomas web page</title>
     <link rel="stylesheet" href=css/style.css>
+   
+    <style>
+        table , tr, td { border: 1px solid;
+            border-collapse: collapse; 
+        }
+    </style>
+
+        
 </head>
 
 <body>
-    <h1 class="szöveg">Home</h1>
-
+ <div id="fix"><h1 id="szöveg">Home</h1></div>
+<p>Kutyaszar</p>
+<p id="demo"></p>
     <h1>Login</h1>
     <div class="login">
         <div class="form-group"> <label for="">Feltét</label>
@@ -21,11 +30,29 @@
             <input class="form-control" type="number" name="amount.input">
         </div>
         <div class="form-group">
-            <button  href="/fourthpage.html" class="btn btn-primary" >Megrendelés</button>
-            
+            Fizetendő: <span class="show-amount">
+                 0
+            </span>Ft
+        </div>
+        <div class="form-group">
+            <button onclick="calcAmount()"  class="btn btn-primary">Megrendelés</button>
+
         </div>
     </div>
-    
+
+    <h1 id="szar">Kutya</h1>
+    <div class="cica">
+        <div class="béka"> <label class="béka" >Feltét</label>
+            <input  type="text" name="top.input">
+        </div>
+        <div class="béka"> <label class="béka" >Mennyiseég</label>
+            <input  type="number" name="amount.input">
+        </div>
+        <div >
+            <button class="béka" href="/fourthpage.html" class="btn btn-primary">Megrendelés</button>
+
+        </div>
+    </div>
 
     <ul class="sor">
         <li>
@@ -45,15 +72,52 @@
         </li>
         <li>
             <a href="/login.html" class="sor">Login</a>
+        
+        </li>
+        <li>
+            <a href="/fifthpage.html" class="sor">Fifth</a>
         </li>
     </ul>
 
 
-
+    <div Class="div" style="background-color:red">
+       
+    </div>
 
 
     <div class="háttér">
         <img class="kép" src="/img/kép.jpg" alt="Semmi">
         <img id="kép" src="/img/gitár.jpg" alt="gitár">
     </div>
+    <div class="cintainer">
+        <div class="row">
+            <div class="col-2"></div>
+            <div class="col-8"></div>
+            <table class="tábla">szar
+                <thead> <tr>
+                    <td>1</td>
+                    <td>2</td>
+                    <td>3</td>
+                </tr>
+            </thead>
+               <tbody><tr>
+                    <td>4</td>
+                    <td>5</td>
+                    <td>6</td>
+                </tr>
+            </tbody>
+                
+            </table>
+            <div class="col-2"></div>
+        </div>
+        <form>
+             <button>szar</button>
+             
+        </form><input type="checkbox">
+
+<p id="szó">Szia, nyomd meg a gombot.</p>
+<button class="kuki" onclick="gomb()">nyomd</button>
+
+        <script src="/js/index.js"></script>
+
 </body>
