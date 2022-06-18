@@ -11,6 +11,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet"> 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/foundicons/3.0.0/foundation-icons.min.css" integrity="sha512-kDmbIQZ10fxeKP5NSt3+tz77HO42IJiS+YPIirOIKTdokl4LtuXYo3NNvq9mTAF+rzdV1plp0sm9E6nvtVpnFQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
 
 
 
@@ -39,14 +40,16 @@
 </nav>
 
 <main>
-    <button onclick="document.getElementById('jó').innerHTML = Date()">Javascript!</button>
+    <div class="gomb"><button id="gomb" onclick="document.getElementById('jó').innerHTML = Date()">Javascript!<i class="bi bi-chevron-double-right myicon"> <!-- ez a boostrap linkje az ikonnak--> </i></button></div>
     <p id="jó"></p>
     <section id="products">
 
+        
     </section>
+    <button id="szép"></button>
 </main>
 
 <script src="app.js"></script>
 
 </body>
-</html>
+</html>s

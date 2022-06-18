@@ -1,6 +1,6 @@
-alert('hello js!'); // felugró ablakot hoz létre at alert.
+/* alert('hello js!'); // felugró ablakot hoz létre at alert.
 const vegburger = document.getElementById('vegburger')
-const nav = document.getElementById('nav')
+const nav = document.getElementById('nav') */
 
 vegburger.addEventListener('click', function (event) {
     nav.classList.toggle('menu-active')
@@ -60,3 +60,4 @@ products.forEach(product => {
     </div>`
 } )
 // videóban 1.23.30 nál járok!
+document.getElementById("szép").innerHTML = "Első JavaScript kódom.";
