@@ -2,7 +2,9 @@
 const vegburger = document.getElementById('vegburger')
 const nav = document.getElementById('nav') */
 
-vegburger.addEventListener('click', function (event) {
+console.log("this is a massege jjjj"); 
+
+ vegburger.addEventListener('click', function (event) {
     nav.classList.toggle('menu-active')
     // klikkre kicseréli az osztályokat
     vegburger.classList.toggle('fi-align-justify')
@@ -60,4 +62,4 @@ products.forEach(product => {
     </div>`
 } )
 // videóban 1.23.30 nál járok!
-document.getElementById("szép").innerHTML = "Első JavaScript kódom.";
+document.getElementById("szép").innerHTML = "Első JavaScript kódom."; 
